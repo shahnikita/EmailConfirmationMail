@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "RegEmail";
+}
+
+@{
+    Layout = null;
+}
+ 
+To: @ViewBag.To
+From: lolcats@website.com
+Subject: Complete Registration Process
+ 
+Hello @ViewBag.UserName,
+ 
+To complete the registration process click on this link 
+http://localhost:57043//Account/RegisterConfirmation/@ViewBag.ConfirmationToken
